@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.ykp{
+    background-image: linear-gradient(to bottom , #9A8478,#1e1e1e);
+}
+.navbar{
+    display: flex;
+    height: 65px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.topleft{
+    width: 50%;
+}
+.topright{
+    width: 50%;
+}
+.sec1{
+    max-height: 100vh;
+}
+.sec1 h1{
+    font-size: 2rem;
+}
+.logo{
+    font-size: 1.5rem;
+}
+.topright .picimg{
+    width: auto;
+    height: 200px;
+/* float: right; */
+    margin-left: 20px;
+    padding-inline-start: 0%;
+     padding-inline-end: 120%;
+
+    
+}
+.topright .vsk{
+    width: 820px;
+    height: 120px;
+    padding-inline-start: 100%;
+    padding-top: 12%;
+}
+.section2{
+    font-size: 1.1rem;
+}
+.section2 p{
+    padding: 8px 0;
+    text-align: center;
+    }
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 24vw;
+    border-radius: 8px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.box ul {
+    list-style-type: none;
+}
+   
+.highlighted{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.section2 h1{
+    font-size: 3rem;
+}
+.text-center my-2{
+    color: aqua;
+}
+.ft{
+    color: rgb(136, 163, 163);
+}

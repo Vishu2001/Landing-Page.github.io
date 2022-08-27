@@ -1,0 +1,71 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+justify-content: space-between;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.my-2{
+    margin-top: 13px;
+    margin-bottom: 19px;
+    color: rgba(235, 181, 18, 0.699);
+}
+.px-2{
+    padding-left: 13px; ;
+    padding-right: 13px;
+}
+.text-rgb{
+    color:rgb(86, 10, 83);
+    font-size: 28px;
+    font-style:oblique
+}
+ .btn{
+padding: 4px 12px;
+border : 2px solid rgb(228, 222, 222);
+border-radius: 12px;
+color: white;
+cursor: pointer;
+background-color: rgb(5, 166, 38);
+} .btn{
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color:black;
+    color:white;
+  }
+.text-center{
+    text-align: center;
+}
